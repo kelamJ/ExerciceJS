@@ -1,11 +1,11 @@
 let mot = prompt("Saisissez un mot : ");
+// Donne le nombre de lettre dans le mot 
 let longueurMot = mot.length;
-let voy = 0;
-let string = mot.substring(longueurMot);
+voy = 0;
 for (i = 0; i < longueurMot ;i++)
-{
-    if (mot === 'a' || mot  === 'e' || mot  === 'i' || mot  === 'o' || mot  === 'u' || mot  === 'y'){
+{   //   Le charAt renvoie une nouvelle chaîne contenant le caractère
+    if (mot.charAt(i) == "a" || mot.charAt(i) == "e" || mot.charAt(i) == "i" || mot.charAt(i) == "o" || mot.charAt(i) == "u") {
         voy++;
     }
 }
-console.log("Le mot "+ mot  + " contient " +  mot.length + " caractères dont " + voy + " voyelles");
+console.log("Le mot "+ mot  + " contient " +  longueurMot + " caractères dont " + voy + " voyelles");
