@@ -16,16 +16,16 @@ window.alert("Ceci est une chaîne de caractères :" + a);
 /*Décrémentation*/
 b--;
 document.write(b);
-document.writeln();
 /*Ajouter la valeur*/
-c = a+=c;
+c = a += c;
 document.write(c);
 /*Boléen qui vaut vrai inversé*/
-var reponse = "true"
-  if (reponse == "true"){
-    reponse=="false"
+let d = "true"
+  if (d == "true"){
+    d=="false"
   };
 
+  
 /*Test affichage console log*/
  var reponse = "oui";
 if ((reponse == "oui"))
